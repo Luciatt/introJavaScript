@@ -33,6 +33,26 @@ number--;
 //Escribir una oración o texto por consola (que cuente lo que quieran)
 //La oración o texto debe estar compuesto por 3 variables, 3 constantes. Y al menos 3 tipos de datos.
 
+
+
+
+function practice() {
+  const name = "Lucía"
+  const lastname = "Tirado"
+  const city = "Cudillero"
+  var nu = "17"
+  var resultado= "Mi nombre es " + name +" "+ lastname + " y vivo en el " + nu + " de "+ city
+  return resultado;
+}
+
+console.info (practice());
+
+
+
+
+
+
+
 //-----------------------------------------------------------------------------------------------//
 
 //Funciones>
@@ -60,23 +80,43 @@ console.info(resultado)
 
 
 
-
-
-
-
-
 //-----------------------------------------------------------------------------------------------//
 
 //Ejercicios//
 //1
 //Defina una función helloque devuelva 'Hello world!'. 
 //Imprimirla en consola con un string que nos calare que ejercicio es.
+function Hello() {
+  
+  var Hello = "Hello world!"
+  var resultado= "Hello world!"
+  return resultado;
+}
+
+console.info (Hello());
 
 //2
 //Defina dos funciones.
 //La primera función adebería devolver 'Hello a!'y la segunda función bdebería devolver 'Hello b!'.
 //Imprimirla en consola con un string que nos calare que ejercicio es.
 
+function Hello a() {
+  
+  var Hello = "Hello-a!"
+  var resultado= "Hello-a!"
+  return resultado;
+}
+
+console.info (Hello a());
+
+function Hello b() {
+  
+  var Hello = "Hello b!"
+  var resultado= "Hello b!"
+  return resultado;
+}
+
+console.info (Hello b());
 //3
 //Defina una función greet que devuelva el valor 'Haydo!'.
 //Declarar una variable salutation. 
